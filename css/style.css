@@ -1,0 +1,72 @@
+.tabs {
+	height: 200px;
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.tabs__header {
+	border: 1px solid gray;
+	border-bottom: none;
+	border-radius: 5px;
+	background: gray;
+	padding: 10px 0 0 10px;
+}
+
+button {
+	border: none;
+	padding: 5px;
+}
+.tabs__body p {
+	display: none;
+}
+.active {
+	background: #FFF;
+}
+.tabs__body .active-text {
+	display: block;
+}
+button:active, button:focus {
+  outline: none !important;
+}
+
+/* Tooltip */
+.wrapper {
+	margin: 50px auto;
+	height: 300px;
+	width: 510px;
+	border: 1px solid black;
+	padding: 10px;
+}
+.tooltip {
+	border: 1px solid black;
+	padding-bottom: 10px;
+}
+label {
+	display: inline-block;
+	width: 80px;
+	margin-left: 10px;
+}
+input {
+	margin: 5px 0 15px 0;
+}
+.btn {
+	margin-top: 5px;
+	padding: 5px 10px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+div {
+	position: relative;
+}
+em {
+	display: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+	padding: 5px;
+	position: absolute;
+	background: rgba(0, 0, 0, .2);
+	left: 270px;
+}

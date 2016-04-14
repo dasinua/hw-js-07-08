@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js-07-08</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<div class="tabs">
+		<div class="tabs__header">
+			<button class="active tabs__item">Nunc tincidunt</button>
+			<button class=" tabs__item">Proin dolor</button>
+			<button class=" tabs__item">Aenean lacinia</button>
+		</div>
+		<div class="tabs__body">
+			<p class="active-text">
+			Большинство нормальных браузеров легко понимают когда мы хотим добиться от них стилизации ссылок для различного типа файлов, для это цели можно использовать следующее CSS правило: a[href $=’.pdf’] { … }. Но как обычно IE6 отличается умом и сообразительностью, по этой причине будем ставить ему костыли используя jQuery. (см. пример)
+			</p>
+			<p>
+			Первым делом добавим тэг  в каждый элемент  Когда произойдет событие mouseover, мы возьмем текст из атрибута “thetitle” и сохраним его в переменной “hoverText”, затем этот текст будет вставлен в тэг
+			</p>
+			<p>
+				Я думаю многие из читателей сталкивались с админской частью wordpress’a, точнее с редактирование комментариев. Попробуем сделать что-то подобное. Для анимации фонового цвета нам понадобиться соответствующий плагин для jQuery. (см. пример)
+			</p>
+		</div>
+	</div>
+
+	<!-- Tooltip -->
+	<div class="wrapper">
+		<form class="tooltip" action="#" method="post">
+			<div>
+		      <label for="firstname">Firstname</label>
+		      <input id="firstname" name="firstname">
+		      <em>Please provide your firstname.</em>
+            </div>
+            <div>
+		      <label for="lastname">Lastname</label>
+		      <input id="lastname" name="lastname">
+		      <em>Please provide also your lastname.</em>
+            </div>
+            <div>
+		      <label for="address">Address</label>
+		      <input id="address" name="address">
+		      <em>Your home or work address.</em>
+            </div>
+		</form>
+		<button class="btn" type="submit">Show help</button>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
